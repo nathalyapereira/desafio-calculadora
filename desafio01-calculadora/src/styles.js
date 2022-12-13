@@ -4,9 +4,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +12,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 
 export const Content = styled.div`
+    display: inline-table;
     background-color: #FFFFFF;
     width: 30%;
     padding: 1rem;
